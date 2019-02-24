@@ -13,6 +13,7 @@
 
 
 
+extern const Il2CppMethodExecutionContextInfo g_methodExecutionContextInfos1[];
 
 
 
@@ -21,6 +22,7 @@
 
 #if IL2CPP_MONO_DEBUGGER
 extern const Il2CppMethodExecutionContextInfo* g_methodExecutionContextInfos[] = {
+g_methodExecutionContextInfos1,
 };
 #else
 extern const Il2CppMethodExecutionContextInfo* g_methodExecutionContextInfos[1] = { };

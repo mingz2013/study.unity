@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{600BF664-6223-CFA7-62A0-08291F2F8A67}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/ButtonChuangGuan.cs">
+    <Files>
+      <File FileName="Assets/scripts/ButtonChuangGuan.cs" Line="21" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/zhaojm/study/study.unity/test2d01/Assets/scripts/ButtonChuangGuan.cs" relfile="Assets/scripts/ButtonChuangGuan.cs" line="21" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
