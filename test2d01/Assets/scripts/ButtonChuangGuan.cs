@@ -7,7 +7,7 @@ public class ButtonChuangGuan : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        print("start...");
     }
 
     // Update is called once per frame
@@ -19,5 +19,6 @@ public class ButtonChuangGuan : MonoBehaviour
     public void onClick()
     {
         Debug.Log("onClick...");
+        print("click...");
     }
 }
