@@ -257,7 +257,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 70
 --- !u!222 &17969093
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3369,7 +3369,18 @@ MonoBehaviour:
   m_Group: {fileID: 1259923283}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1110404139}
+        m_MethodName: OnMissileSelected
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
@@ -3700,7 +3711,18 @@ MonoBehaviour:
   m_Group: {fileID: 1259923283}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1110404139}
+        m_MethodName: OnLaserSelected
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
@@ -5465,7 +5487,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 90
 --- !u!222 &809115181
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7848,6 +7870,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1110404138}
   - component: {fileID: 1110404137}
+  - component: {fileID: 1110404139}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -7900,6 +7923,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1110404139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110404136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0490e4de2fa87413481b8b72f3b5106b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laserTurretData:
+    turretPrefab: {fileID: 8299071070497204835, guid: 7d4a09093d9284cf292a0fc56704a13b,
+      type: 3}
+    cost: 70
+    turretUpgradePrefab: {fileID: 1740288819955107300, guid: aeef5714c244e4be08c6a176b13abe38,
+      type: 3}
+    costUpgrade: 50
+    type: 0
+  missileTurretData:
+    turretPrefab: {fileID: 2204491076874688786, guid: 75b550a1ead2a4c70b105d9a7cf02a9c,
+      type: 3}
+    cost: 80
+    turretUpgradePrefab: {fileID: 4352809066156913740, guid: 250c2a6761d9a4036a568463a6c929d6,
+      type: 3}
+    costUpgrade: 60
+    type: 1
+  standardTurretData:
+    turretPrefab: {fileID: 4631521110962441341, guid: 05291118659784d81baa1a6726249595,
+      type: 3}
+    cost: 90
+    turretUpgradePrefab: {fileID: 6664808051743416668, guid: b5f3ca022d9914c4bbbd61309138f760,
+      type: 3}
+    costUpgrade: 70
+    type: 2
 --- !u!1001 &1116498411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9014,7 +9073,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 80
 --- !u!222 &1238716203
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16769,7 +16828,18 @@ MonoBehaviour:
   m_Group: {fileID: 1259923283}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1110404139}
+        m_MethodName: OnStandardSelected
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
