@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// 一波敌人
 public class EnemySpwaner : MonoBehaviour
 {
     public static int CountEnemyAlive = 0;

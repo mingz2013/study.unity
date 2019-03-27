@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// 路径点
 public class Waypoints : MonoBehaviour
 {
 

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// 控制视图，控制摄像机角度
 public class ViewController : MonoBehaviour
 {
 
